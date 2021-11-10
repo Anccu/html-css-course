@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.product {
+    width: 825px;
+    border: 5px solid black;
+    margin: 50px auto;
+    position: relative;
+}
+
+.clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.product-title {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*IMAGE*/
+.product-img {
+    float: left;
+    margin-right: 40px;
+}
+
+/*INFORMATION*/
+.product-info {
+    float: left;
+    width: 243px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.price {
+    font-size: 24px;
+    /* margin-top: 30px; */
+    float: left;
+}
+
+.shipping {
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    float: right;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.clear {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.sale {
+    background-color: #ec2f2f;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+}
+
+.more-info:link, .more-info:visited {
+    color: black;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.more-info:hover, .more-info:active {
+    text-decoration: none;
+}
+
+.color {
+    background-color: black;
+    padding: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom:;
+}
+
+.color-blue {
+    background-color: #2f6ee2;
+}
+
+.color-red {
+    background-color: #ec2f2f;
+}
+
+.color-yellow {
+    background-color: #f0bf1e;
+}
+
+.color-green {
+    background-color: #90cc20;
+}
+
+.color-brown {
+    background-color: #885214;
+}
+
+/*DETAILS*/
+.product-details {
+    float: left;
+    width: 240px;
+    margin-top: 20px;
+}
+
+.details-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.details-list {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.details-list li {
+    margin-bottom: 10px;
+}
+
+.add-cart {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    border-top: solid 5px #000;
+}
+
+.add-cart:hover {
+    background-color: #fff;
+    color: #000;
+}
